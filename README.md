@@ -89,3 +89,7 @@ The application does not properly sanitize or validate user-provided input in th
 ### Result:
 
 Upon saving the malicious input in the Address field, the payload is executed whenever the profile is viewed, triggering an XSS alert popup.
+
+
+### Visual Proof
+https://github.com/CodeByMoriarty/Gym-Management-System-Stored-XSS/blob/main/gym.png
